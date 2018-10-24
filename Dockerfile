@@ -13,6 +13,7 @@ RUN \
 	ca-certificates && \
 	npm install npm@latest -g && \
 	npm install -g yarn && \
+	npm install -g gulp && \
 	npm install -g bower && \
 	npm install -g polymer-cli --unsafe-perm && \
 	npm install -g gulp-cli && \
