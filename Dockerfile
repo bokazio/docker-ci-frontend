@@ -1,4 +1,4 @@
-FROM node:8-alpine
+FROM node:9-alpine
 
 LABEL vendor="bokazio" origin="https://github.com/bokazio/docker-ci-frontend"
 
