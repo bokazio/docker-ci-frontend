@@ -1,4 +1,4 @@
-FROM node:9-alpine
+FROM node:8-alpine
 
 LABEL vendor="bokazio" origin="https://github.com/bokazio/docker-ci-frontend"
 
@@ -13,7 +13,6 @@ RUN \
 	ca-certificates && \
 	npm install npm@latest -g && \
 	npm install -g yarn && \
-	npm install -g gulp && \
 	npm install -g bower && \
 	npm install -g polymer-cli --unsafe-perm && \
 	npm install -g gulp-cli && \
